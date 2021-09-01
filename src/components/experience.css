@@ -1,0 +1,63 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+
+.work_title
+{
+    font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 72px;
+/* identical to box height, or 112% */
+
+letter-spacing: +0.005em;
+
+color: #FFFFFF;
+}
+
+
+.experience_container{
+    font-family: 'Sora', sans-serif;
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+.title_ender {
+    position: relative;
+    top: -20px;
+    left: 4px;
+}
+
+.timeline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.year
+{
+    font-size: 32px;
+    font-weight: 800;
+    background: #202020;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px 15px;
+    border-radius: 8px;
+}
+
+.timeline_img{
+    margin-top: 50px;
+    max-width: 1150px;
+}
+
+.timeline_second{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

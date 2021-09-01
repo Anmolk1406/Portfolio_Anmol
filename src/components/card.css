@@ -1,0 +1,17 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+.cards
+{
+    margin-top: 200px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.card_container{
+    font-family: 'Sora', sans-serif;
+    width: fit-content;
+    margin: 0 auto;
+}

@@ -1,0 +1,84 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+
+.card_items_container{
+    font-family: 'Sora', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.work_title
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 72px;
+    /* identical to box height, or 112% */
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+
+.title_ender {
+    position: relative;
+    top: -20px;
+    left: 4px;
+}
+
+.global_cards
+{
+    display : grid;
+    grid-template-columns: 560px 560px;
+    grid-column-gap: 20px;
+    width: fit-content;
+    margin: 0 auto !important;
+}
+
+
+.work_card
+{
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.work_card > h1{
+    font-size: 28px;
+    letter-spacing: 0.025rem;
+}
+
+.arrow
+{
+    position: relative;
+    left: -20px;
+    width: 0;
+    opacity: 0;
+    transition: 150ms ease-in-out;
+}
+
+.btn{
+    transition: all 150ms ease-in-out;
+}
+
+.btn:hover .arrow
+{
+    left: 5px;
+    width: 6.6px;
+    opacity: 100%;
+}
+
+p{
+    font-size: 16px;
+    font-style: normal;
+font-weight: lighter;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0/0045rem;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.0025em;
+}
+
+h1{
+    font-size: 32px;
+}

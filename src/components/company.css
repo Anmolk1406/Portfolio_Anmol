@@ -1,0 +1,56 @@
+.company_container{
+    justify-content: space-around;
+    display: flex;
+    flex: row;
+}
+
+.img_container
+{
+    display: flex;
+    justify-content: center;
+    background: #202020;
+    border-radius: 8px;
+    width: 160px; height: 160px;
+    margin-right: 20px;
+}
+
+.image-1{
+    width: 40%;
+    margin: auto auto;
+    align-self: flex-start;
+}
+
+
+.company_details
+{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.company_details > h1{
+    font-size: 32px;
+    margin: 0;
+}
+
+.desig{
+    margin: 10px auto;
+    font-size: 24px;
+}
+
+.company_container:hover .divider{
+    width: 100%;
+}
+
+.divider
+{
+    
+    height: 4px; width: 80px;
+    background: #3C95FF;
+    transition: all 150ms ease-in-out;
+}
+
+.duration{
+    margin-top: 10px;
+    font-size: 16px;
+}

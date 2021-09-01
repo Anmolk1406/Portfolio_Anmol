@@ -1,0 +1,90 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+
+
+body{
+    user-select: none;
+}
+
+
+.hero-container{
+    font-family: 'Sora', sans-serif;
+    height: 75vh; width: 100%;
+    display: flex; flex-direction: column;
+    align-items: center;
+    object-fit: none;
+    justify-content: center;
+}
+
+.hero-container > h1 {
+    margin-bottom: 0;
+    color: white;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.hero_subtitle > p {
+    color: white;
+    font-size: 28px !important;
+    font-weight: 100;
+    margin-right: 20px;
+}
+
+.hero_subtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.hero-btns
+{
+    margin-top: 24px;
+}
+
+.hero-btns .btn {
+    margin: 6px;
+}
+
+.arrow_right
+{
+    position: relative;
+    left: -10px;
+    width: 0;
+    opacity: 0;
+    transition: 150ms ease-in-out;
+}
+
+.btn{
+    transition: all 150ms ease-in-out;
+}
+
+.btn:hover .arrow_right
+{
+    left: 5px;
+    width: 6.6px;
+    opacity: 100%;
+} 
+
+@media screen and (max-width: 960px) {
+    .hero-container > h1{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .hero-container > h1 {
+        font-size: 40px;
+    }
+
+    .hero-btns
+    {
+        font-size: 30px;
+    }
+
+        .btn{
+            width: 100%;
+        }
+
+}

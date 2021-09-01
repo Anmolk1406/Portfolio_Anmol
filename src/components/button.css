@@ -1,0 +1,43 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+
+:root{
+    --primary: #3B95FF;
+}
+
+.btn
+{
+    overflow: hidden;
+    font-family: 'Sora', sans-serif;
+    letter-spacing: 0.045rem;
+padding: 15px;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color: white;
+cursor: pointer;
+width: auto;
+
+/* Blue/Blue Highlight */
+
+border: 2px solid var(--primary);
+box-sizing: border-box;
+border-radius: 8px;
+
+/* Inside Auto Layout */
+margin: 20px 0px;
+}
+
+.btn--primary{
+    background: none;
+}
+
+.btn--primary:hover{
+    background: var(--primary);
+    color: white;
+    transition: all 150ms ease-in-out;
+}
+
+

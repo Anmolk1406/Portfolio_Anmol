@@ -1,0 +1,114 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+
+
+.navbar-container
+{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background: #000;
+    background: rgba(19,19,19,0.9) !important;                                                                                       
+    z-index: 2;
+    backdrop-filter: blur(40px) saturate(125%);                                                                 
+    -webkit-backdrop-filter: blur(40px) saturate(125%);    
+    border-bottom: 2px solid #131313;       
+}
+
+
+.link-buttons
+{   
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.045em;
+    padding: 12px 24px;
+    width: 100px;
+    height: 48px;
+    /* Inside Auto Layout */
+    margin: 0px 20px;
+
+    /* style */
+    background: none;
+    color: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+.link-buttons:hover
+{
+    background: #202020;
+    color: #3C95FF;
+}
+
+.activated
+{
+    color: #3C95FF;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.activated:after
+{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 20%;
+    bottom: px;
+    border-radius: 8px;
+    position: absolute;
+    background: #3C95FF;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 60%;
+}
+
+.active {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+ .active:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    border-radius: 8px;
+    position: absolute;
+    background: #3C95FF;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .active:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+
+body
+{
+    margin: 0;
+}
+
