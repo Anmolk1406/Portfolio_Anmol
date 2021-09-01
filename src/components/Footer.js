@@ -14,8 +14,8 @@ function Footer() {
     },
     {
         icon: linkedIn,
-        name: 'linkedin'
-    },
+        name: 'linkedin' 
+    }, 
     {
         icon: Behance,
         name: 'behance'

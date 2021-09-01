@@ -18,7 +18,7 @@ function CardItem({projects}) {
                 <p>{project.subtitle}</p>
                 <h1>{project.name}</h1>
                 <p>{project.description}</p>
-                <Button className='btn' buttonStyle="btn--primary">
+                <Button onClick={project.url} className='btn' buttonStyle="btn--primary">
                     {project.button_name} <img src={arrowRight} className='arrow'></img>
                 </Button>
             </div>)
