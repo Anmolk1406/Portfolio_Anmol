@@ -26,7 +26,7 @@ body{
 
 .hero_subtitle > p {
     color: white;
-    font-size: 28px !important;
+    font-size: 28px;
     font-weight: 100;
     margin-right: 20px;
 }
@@ -71,6 +71,10 @@ body{
     .hero-container > h1{
         font-size: 60px;
     }
+
+    .hero_subtitle > p {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 760px) {
@@ -78,9 +82,13 @@ body{
         font-size: 40px;
     }
 
+    .hero_subtitle > p {
+        font-size: 16px;
+    }
+
     .hero-btns
     {
-        font-size: 30px;
+        font-size: 20px;
     }
 
         .btn{

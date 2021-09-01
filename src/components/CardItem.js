@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import arrowRight from '../Assets/arrow.png';
 import { Button } from './Button';
 import './carditem.css';
@@ -14,11 +13,12 @@ function CardItem({projects}) {
         <div className="global_cards">
            {
            projects.map(project => <div className='work_card'>
-                <img src ={project.imgUrl}></img>
+                <img className="image_holder"
+                 alt="Card Image" src ={project.imgUrl}></img>
                 <p>{project.subtitle}</p>
                 <h1>{project.name}</h1>
-                <p>{project.description}</p>
-                <Button onClick={project.url} className='btn' buttonStyle="btn--primary">
+                <p>{project.description}</p> 
+                <Button url={project.url} className='btn' buttonStyle="btn--primary">
                     {project.button_name} <img src={arrowRight} className='arrow'></img>
                 </Button>
             </div>)

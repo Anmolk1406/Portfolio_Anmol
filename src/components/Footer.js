@@ -10,19 +10,23 @@ function Footer() {
 
     const buttons = [{
         icon: instaIcon,
-        name: 'Instagram'
+        name: 'Instagram',
+        url: 'https://www.instagram.com/almost.anmol/'
     },
     {
         icon: linkedIn,
-        name: 'linkedin' 
+        name: 'linkedin' ,
+        url: 'https://www.linkedin.com/in/anmol-kumar-49678a198/'
     }, 
     {
         icon: Behance,
-        name: 'behance'
+        name: 'behance',
+        url: 'https://www.behance.net/anmolkumar6'
     },
     {
         icon: twitter,
-        name: 'twitter'
+        name: 'twitter',
+        url: 'https://twitter.com/AlmostAnmol'
     }
     ]
     return (
@@ -42,7 +46,11 @@ function Footer() {
 
 
         <div className="footer_ending">
-                    <p>Special thanks to ayaneshu and supratim for helping me in design
+                <p>
+                    Website Designed and Developed by Me!
+                </p>
+                    <p> 
+                        Special thanks to ayaneshu and supratim for helping me in design
                         and development of this website ❤️
                     </p>
          </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './card.css';
-import { Button } from './Button';
 import workCardOne from '../Assets/work_card_one.png';
 import workCardTwo from '../Assets/work_card_two.png';
 import workCardThree from '../Assets/work_card_three.png';
