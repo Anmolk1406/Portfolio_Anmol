@@ -29,7 +29,6 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.045em;
-    padding: 12px 24px;
     width: 100px;
     height: 48px;
     /* Inside Auto Layout */
@@ -133,7 +132,6 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
     letter-spacing: 0.15em;
     
     display: inline-block;
-    padding: 15px 20px;
     position: relative;
   }
 
@@ -150,6 +148,7 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
     background: #3C95FF;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
+    left: 20%;
   }
 
   .active:hover:after { 
