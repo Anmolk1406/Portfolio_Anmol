@@ -15,7 +15,7 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
     background: #000;
     background: rgba(19,19,19,0.9) !important;                                                                                       
     z-index: 2;
-    backdrop-filter: blur(40px) saturate(125%);                                                                  
+    backdrop-filter: blur(40px) saturate(125%);                                                                 
     -webkit-backdrop-filter: blur(40px) saturate(125%);    
     border-bottom: 2px solid #131313;       
 }
@@ -136,13 +136,15 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
     padding: 15px 20px;
     position: relative;
   }
+
+  
  .active:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
-    display: block;
+    display: flex;
+    justify-content: center;
     height: 2px;
-    left: 50%;
     border-radius: 8px;
     position: absolute;
     background: #3C95FF;
@@ -151,8 +153,7 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
   }
 
   .active:hover:after { 
-    width: 100%; 
-    left: 0; 
+    width: 60%;  
   }
 
 

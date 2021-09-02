@@ -26,7 +26,7 @@ function Navbar() {
             <Link> <Anmol/></Link>
             {/* <Link><img src={logo}/></Link>  */}
 
-            <div className="navi-cons"> 
+            <div className="navi-cons">  
                 <Link><button className="link-buttons activated">Home</button></Link>
                 <Link><button className="link-buttons active">Work</button></Link>
                 <Link><button className="link-buttons active">About</button></Link>
