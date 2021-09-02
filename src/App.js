@@ -29,23 +29,30 @@ const scrollTop = document.documentElement.scrollTop;
 
 const percentage = (scrollTop / (scrollHeight - clientHeight))*100;
 
+const divStyle = {
+  backgroundImage: 'linear-gradient(180deg, #3C95FF ' + Math.floor(percentage) + '%, transparent 0)'
+};
 
 
   return (
     <>
       <Router>
+
+        {/* <h1 style={{position: 'fixed', zIndex: '2000'}}>{Math.floor(percentage)}</h1> */}
         
-        <h1 style={{position: 'fixed', zIndex: '2000'}}>{Math.floor(percentage)}</h1>
+        <div className="scrl-btn-container">
+        
+        <div class="radialProgressBar"
+        style={divStyle}>
+                <div class="overlay">
+                      <ScrollToTop smooth className="scroll" component={<ScrollUpAnimation/>}/>
+                </div>
+          </div>
 
-        <CircularProgressbarWithChildren className="scroll_container" value={Math.floor(percentage)}>
-          <div>
-            <ScrollUpAnimation className="scroll"/>
-        </div>
-        {/* <ScrollToTop smooth className="scroll" component={<ScrollUpAnimation/>}/> */}
-
-        </CircularProgressbarWithChildren>
+          </div>
       
         <Navbar />
+
         <Switch>
           <Route path='/' exact component={Home} />
         </Switch>

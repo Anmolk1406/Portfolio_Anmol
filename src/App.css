@@ -11,12 +11,39 @@ body{
 }
 
 
-.scroll_container{
-    z-index: 100;
-    position: fixed;
-   width: 100px !important;
+.scroll
+{
+    width: 100px; height: 100px;
+    z-index: 1004;
+    cursor: pointer;
+    transform: rotate(180deg);
+    border-radius: 100%;
+    background: #131313;   
+    border: none;
 }
 
 
+.radialProgressBar {
+    bottom: 100px; right: 100px;
+    border-radius: 50%;
+    transform: translate(50%, 50%);
+    width: 105px;
+    height: 105px;
+    display: flex;
+    background: #131313;
+    margin: 20px;
+}
+.radialProgressBar .overlay {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background: #131313;
+    text-align: center;
+}
 
-
+.scrl-btn-container
+{
+    position: fixed;
+    bottom: 80px; right: 80px;
+}
