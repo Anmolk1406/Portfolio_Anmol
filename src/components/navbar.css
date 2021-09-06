@@ -1,6 +1,4 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
 
 
 .navbar-container
@@ -9,7 +7,7 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 90px;
     background: #000;
@@ -23,7 +21,7 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
 .link-buttons
 {   
-    font-family: 'Sora', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -104,56 +102,67 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
-    
     display: inline-block;
-    padding: 15px 20px;
     position: relative;
 }
 
 .activated:after
 {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 20%;
-    bottom: px;
-    border-radius: 8px;
-    position: absolute;
-    background: #3C95FF;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 60%;
+    display:block;
+    content: '';
+    border-bottom: solid 2px #3C95FF;  
+    transform: scaleX(0.7); 
+    transition: transform 250ms ease-in-out;
 }
 
 .active {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
-    
     display: inline-block;
     position: relative;
   }
 
   
  .active:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: flex;
-    justify-content: center;
-    height: 2px;
-    border-radius: 8px;
-    position: absolute;
-    background: #3C95FF;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-    left: 20%;
+    display:block;
+  content: '';
+  border-bottom: solid 2px #3C95FF;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
   }
 
   .active:hover:after { 
-    width: 60%;  
+    transform: scaleX(0.8);  
   }
+
+@-webkit-keyframes indicator {
+  30% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: 3px solid #60d480;
+    left: -68%;
+  }
+}
+
+@keyframes indicator {
+  30% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: 3px solid #60d480;
+    left: -68%;
+  }
+}
 
 
 body
@@ -169,6 +178,9 @@ body
     }
 
     .hamburger_container{
+        margin-right: 5%;
         display: block;
     }
+
+    
 }

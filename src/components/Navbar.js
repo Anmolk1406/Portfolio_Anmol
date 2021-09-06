@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import './navbar.css'
 import { Link } from 'react-router-dom';
-import logo from '../Assets/Logo.png';
-import DrawSVG from 'react-svg-drawing';
 import Anmol from './Anmol';
-import ScrollToTop from "react-scroll-to-top";
 
 
 function Navbar() {
@@ -23,13 +20,14 @@ function Navbar() {
 
     return (
         <div className="navbar-container">
-            <Link> <Anmol/></Link>
+            <Link style={{marginLeft: '20%'}}> <Anmol/></Link>
             {/* <Link><img src={logo}/></Link>  */}
 
             <div className="navi-cons">  
                 <Link><button className="link-buttons activated">Home</button></Link>
                 <Link><button className="link-buttons active">Work</button></Link>
                 <Link><button className="link-buttons active">About</button></Link>
+                
             </div>
 
             <div className="hamburger_container">

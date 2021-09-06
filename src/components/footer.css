@@ -3,7 +3,7 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
 
 .footer{
-    font-family: 'Sora', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     background: #3C95FF;   
     padding: 150px;
     margin-top: 100px;
@@ -19,12 +19,12 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 }
 
 .footer_text > h1{
-    font-size: 56px;
+    font-size: 4rem;
 }
 
 .footer_text > p {
-    margin-top: -40px;
-    font-size: 18px;
+    margin-top: 10px;
+    font-size: 1rem;
 }
 
 .footer_ending{
@@ -41,4 +41,43 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
     font-family: "circular";
     font-weight: lighter;
     font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+        .footer{
+            display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 100px;
+        }
+
+        .footer_text > h1{
+            font-size: 56px;
+        }
+        
+        .footer_text > p {
+            margin-top: 10px;
+            font-size: 18px;
+            margin-bottom: 4rem;
+        }
+}
+
+@media screen and (max-width: 500px) {
+    .footer{
+        display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 60px;
+    }
+
+    .footer_text > h1{
+        font-size: 36px;
+    }
+    
+    .footer_text > p {
+        margin-top: 10px;
+        font-size: 14px;
+        margin-bottom: 4rem;
+    }
 }
