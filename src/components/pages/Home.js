@@ -7,13 +7,13 @@ import Realm from '../Realm';
 
 function Home() {
     return(
-        <>
+        <div id='home-container'>
             <HeroSection />
             <Realm />
             <Cards />
             <Experience />
             <Footer />
-        </>
+        </div>
     )
 }
 

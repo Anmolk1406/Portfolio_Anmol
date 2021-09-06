@@ -28,7 +28,7 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 }
 
 .footer_ending{
-
+    padding: 20px;
     background: white;
 }
 
@@ -36,7 +36,7 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: 15px;
+    /* padding: 15px; */
     color: #131313;
     font-family: "circular";
     font-weight: lighter;

@@ -2,7 +2,9 @@ import Navbar from "./components/Navbar";
 import React, {useState, useEffect} from "react";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
+import About from './components/pages/About'
 import Home from './components/pages/Home'
+import Blank from "./components/Blank";
 import ScrollToTop from "react-scroll-to-top";
 import ScrollUpAnimation from "./components/Scroll";
 import {CircularProgressbarWithChildren,buildStyles} from "react-circular-progressbar";
@@ -52,8 +54,14 @@ const divStyle = {
           </div>
       
         <Navbar />
-        <Home />
+        <Blank/>
         <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route path='/about'>
+            <About/>
+          </Route>
         </Switch>
       </Router>
     </>

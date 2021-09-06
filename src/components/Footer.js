@@ -49,10 +49,10 @@ function Footer() {
                 <p>
                     Website Designed and Developed by Me!
                 </p>
-                    <p> 
-                        Special thanks to ayaneshu and supratim for helping me in design
-                        and development of this website ❤️
-                    </p>
+                <p> 
+                    Special thanks to Ayaneshu and Supratim for helping me in design
+                    and development of this website ❤️
+                </p>
          </div>
          </>
     )
