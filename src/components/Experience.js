@@ -14,7 +14,7 @@ function Experience() {
         duration: '6 months'
     },
     {
-        imgUrl: ekaCare,
+        imgUrl: ekaCare, 
         company_name: 'Eka.Care',
         designation: 'Motion Designer',
         duration: '3 months'
@@ -26,13 +26,15 @@ function Experience() {
             <h1 className="work_title">Experience<img className="title_ender" src={titleDarkMode}>
             </img></h1>
             <div className="timeline">
-                <div className="year">2020 →</div>
+                <a className="year">2020 →</a>
                 <Company company = {companies[0]} />
             </div>
+            
             <img className="timeline_img" src={timeLine}/>
+
             <div className="timeline_second">
                 <Company company = {companies[1]} />
-                <div className="year">← 2021</div>
+                <a className="year">← 2021</a>
             </div>
         </div>
     )

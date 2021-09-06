@@ -1,9 +1,7 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 .card_items_container{
-    font-family: 'Sora', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -35,7 +33,6 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
     margin: 0 auto !important;
 }
 
-
 .work_card
 {
     max-width: 600px;
@@ -43,8 +40,16 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 }
 
 .work_card > h1{
-    font-size: 28px;
-    letter-spacing: 0.025rem;
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: -0.02em;
+
+}
+.work_card > p{
+    font-weight: 100;
+    font-size: 1.2rem;
+    letter-spacing: 0.02em;
+
 }
 
 .image_holder{
@@ -72,7 +77,7 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 }
 
 p{
-    font-size: 16px;
+    font-size: 1.5rem;
     font-style: normal;
 font-weight: lighter;
 font-size: 16px;
@@ -83,9 +88,6 @@ letter-spacing: 0/0045rem;
 letter-spacing: 0.0025em;
 }
 
-h1{
-    font-size: 32px;
-}
 
 @media screen and (max-width: 1200px) {
     
@@ -104,9 +106,9 @@ h1{
     
     .global_cards
 {
-    display : grid;
-    grid-template-columns: 260px 260px;
-    grid-column-gap: 10px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
     width: fit-content;
     margin: 0 auto !important;
 }
@@ -118,5 +120,23 @@ h1{
     font-size: 12px;
 }
    
+}
+
+@media screen and (max-width: 620px) {
+    .work_card
+    {
+        max-width: 400px;
+    margin-bottom: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .work_card
+    {
+        max-width: 300px;
+    margin-bottom: 50px;
+    }
+    
 }
 

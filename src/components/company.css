@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
 .company_container{
     justify-content: space-around;
     display: flex;
@@ -53,4 +56,60 @@
 .duration{
     margin-top: 10px;
     font-size: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+    .img_container
+{
+    display: flex;
+    justify-content: center;
+    background: #202020;
+    border-radius: 8px;
+    width: 100px; height: 100px;
+    margin-right: 20px;
+}
+
+.image-1{
+    width: 40%;
+    margin: auto auto;
+    align-self: flex-start;
+}
+
+    .company_details > h1{
+    font-size: 24px;
+    margin: 0;
+    }
+
+    .desig{
+        margin: 10px auto;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .img_container
+    {
+        display: flex;
+        justify-content: center;
+        background: #202020;
+        border-radius: 8px;
+        width: auto; height: 60px;
+        margin-right: 20px;
+    }
+    .image-1{
+        width: 30%;
+        margin: auto auto;
+        align-self: flex-start;
+    }
+
+    .company_details > h1{
+        font-size: 16px;
+        margin: 0;
+        }
+    
+        .desig{
+            margin: 10px auto;
+            font-size: 14px;
+        }
 }

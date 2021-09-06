@@ -1,5 +1,4 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 .cards
 {
@@ -11,7 +10,7 @@ li{
 }
 
 .card_container{
-    font-family: 'Sora', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     width: fit-content;
     margin: 0 auto;
 }

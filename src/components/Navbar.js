@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
 import './navbar.css'
 import { Link } from 'react-router-dom';
-import logo from '../Assets/Logo.png';
-import DrawSVG from 'react-svg-drawing';
 import Anmol from './Anmol';
-import ScrollToTop from "react-scroll-to-top";
-import {Link as ScrollLink, animateScroll as scroll} from 'react-scroll'
 
 
 function Navbar() {
@@ -25,13 +21,14 @@ function Navbar() {
 
     return (
         <div className="navbar-container">
-            <Link> <Anmol/></Link>
+            <Link style={{marginLeft: '20%'}}> <Anmol/></Link>
             {/* <Link><img src={logo}/></Link>  */}
 
             <div className="navi-cons">  
-                <Link to='#'><button onClick={()=> setActive('home')} className={`link-buttons ${active === 'home' ? 'activated' : 'active'}`}>Home</button></Link>
-                <ScrollLink className="c-main__contact" to="works-container" offset={-1 * 18 * window.innerHeight / 100} smooth={true} duration={800}><button onClick={()=> setActive('work')} className={`link-buttons ${active === 'work' ? 'activated' : 'active'}`}>Work</button></ScrollLink>
-                <Link><button onClick={()=> setActive('about')} className={`link-buttons ${active === 'about' ? 'activated' : 'active'}`}>About</button></Link>
+                <Link><button className="link-buttons activated">Home</button></Link>
+                <Link><button className="link-buttons active">Work</button></Link>
+                <Link><button className="link-buttons active">About</button></Link>
+                
             </div>
 
             <div className="hamburger_container">

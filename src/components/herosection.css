@@ -1,5 +1,4 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 
 
@@ -9,8 +8,8 @@ body{
 
 
 .hero-container{
-    font-family: 'Sora', sans-serif;
-    height: 75vh; width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    height: 60vh; width: 100%;
     display: flex; flex-direction: column;
     align-items: center;
     object-fit: none;
@@ -18,10 +17,10 @@ body{
 }
 
 .hero-container > h1 {
-    margin-bottom: 0;
+    margin-top: 6rem;
     color: white;
     font-size: 100px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .hero_subtitle > p {

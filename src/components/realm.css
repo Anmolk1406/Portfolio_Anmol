@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.realm
+{
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+}
+
+.animation{
+    width: fit-content;
+}
+
+.align{
+    font-size: 'DM Sans', 'Sans Serif';
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.align > h1{
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 880px) {
+    .align
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .align
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+}

@@ -1,5 +1,4 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 
 :root{
@@ -8,10 +7,11 @@ url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
 .btn
 {
+    text-transform: uppercase;
     overflow: hidden;
-    font-family: 'Sora', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     letter-spacing: 0.045rem;
-padding: 15px;
+padding: 15px; 
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -29,7 +29,7 @@ border-radius: 8px;
 /* Inside Auto Layout */
 margin: 20px 0px;
 }
-
+ 
 .btn--primary{
     background: none;
 }
@@ -40,4 +40,11 @@ margin: 20px 0px;
     transition: all 150ms ease-in-out;
 }
 
+@media screen and (max-width: 960px) {
+    .btn{
+        font-size: 1rem;
+        line-height:  0.75rem;
+        width: auto;
+    }
+}
 
