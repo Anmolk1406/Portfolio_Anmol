@@ -56,7 +56,7 @@ const divStyle = {
         <Navbar />
         <Blank/>
         <Switch>
-          <Route exact path='/'>
+          <Route path='/'>
             <Home />
           </Route>
           <Route path='/about'>
