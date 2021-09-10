@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
     user-select: none;
@@ -8,7 +6,6 @@ body{
 
 
 .hero-container{
-    font-family: 'DM Sans', sans-serif;
     height: 60vh; width: 100%;
     display: flex; flex-direction: column;
     align-items: center;
@@ -17,17 +14,20 @@ body{
 }
 
 .hero-container > h1 {
+    font-family: 'Epilogue', sans-serif;
     margin-top: 6rem;
     color: white;
+    font-weight: 600;
     font-size: 100px;
-    font-weight: bold;
 }
 
 .hero_subtitle > p {
+    font-family: 'Epilogue', sans-serif;
     color: white;
     font-size: 28px;
-    font-weight: 100;
+    font-weight: 200;
     margin-right: 20px;
+    letter-spacing: -.0045rem;
 }
 
 .hero_subtitle{

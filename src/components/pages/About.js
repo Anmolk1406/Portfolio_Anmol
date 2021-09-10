@@ -1,9 +1,10 @@
 import React from 'react'
+import AboutHerosection from '../AboutHerosection'
 
 function About() {
     return (
         <div>
-            <h1>Hello, I'm Anmoltard, a virgin by profession and a retard by passion</h1>
+            <AboutHerosection />
         </div>
     )
 }

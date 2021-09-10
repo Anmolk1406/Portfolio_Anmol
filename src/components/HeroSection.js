@@ -15,7 +15,7 @@ function HeroSection() {
             </div>
             <div className="hero-btns">
                 <Button className='btn' url="mailto:anmol_k@cy.iitr.ac.in" buttonStyle='btn--primary'>
-                    Drop a message! <img className='arrow_right' src={arrowRight}/> 
+                    Drop a message!<img className='arrow_right' src={arrowRight}/> 
                 </Button>
                 
             </div>

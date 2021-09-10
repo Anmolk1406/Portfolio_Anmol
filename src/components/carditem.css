@@ -1,22 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .card_items_container{
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
-.work_title
-{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 72px;
-    /* identical to box height, or 112% */
-    letter-spacing: -0.025em;
-    color: #FFFFFF;
-}
 
 .title_ender {
     position: relative;
@@ -40,13 +30,12 @@
 }
 
 .work_card > h1{
-    font-weight: 800;
+    font-weight: 500;
     font-size: 2rem;
-    letter-spacing: -0.02em;
-
 }
+
 .work_card > p{
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.2rem;
     letter-spacing: 0.02em;
 
@@ -99,6 +88,12 @@ letter-spacing: 0.0025em;
     width: fit-content;
     margin: 0 auto !important;
 }
+
+@media screen and (max-width: 960px) {
+    .work_card > p{
+        font-size: 14px;
+    }
+}
    
 }
 
@@ -122,7 +117,7 @@ letter-spacing: 0.0025em;
    
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 60px) {
     .work_card
     {
         max-width: 400px;
