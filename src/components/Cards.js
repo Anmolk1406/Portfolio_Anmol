@@ -13,16 +13,16 @@ function Cards() {
         {
             imgUrl: workCardThree,
             subtitle: 'Showreel',
-            name: 'Info graphic animations',
-            description: 'Creative storytelling through motion design.',
+            name: 'After effects showreel',
+            description: 'My first after effects showreel',
             button_name: 'Play video',
             url: 'https://drive.google.com/file/d/1nTqrpS_4tN6Kwvgr-9PXkTnifBtvne_V/view?usp=sharing'
         },
         { 
             imgUrl: workCardTwo,
             subtitle: 'Motion design intern | eka•care',
-            name: 'UI Interactive animations',
-            description: 'Splash screen, on-boarding screen, loader - check out more work on notion documentation!',
+            name: 'My work with eka care',
+            description: 'Read the documentaion of my internship with eka care.',
             button_name: 'Open notion',
             url: 'https://www.notion.so/Eka-Care-Assests-266be9e50fe2458fae575141212fff2b'
         },
@@ -30,15 +30,15 @@ function Cards() {
             imgUrl: workCardFive,
             subtitle: 'Branding',
             name: 'eSports IITR Branding',
-            description: 'Branding of the offical iit Roorkee group ESPORTS ITTR',
+            description: 'Branding of the IIT Roorkee group ESPORTS IITR',
             button_name: 'Open',
             url: ''
         },
         {
             imgUrl: workCardSix,
             subtitle: 'Motion design intern | Curelink',
-            name: '',
-            description: 'My exprience with curelink',
+            name: 'My work with curelink',
+            description: 'Read the documentaion of my internship with curelink.',
             button_name: 'Read documentation',
             url: 'https://www.behance.net/gallery/125324027/2021-Mid-year-work-showcase'
         },

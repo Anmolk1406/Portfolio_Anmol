@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .card_items_container{
-    font-family: 'Epilogue', sans-serif;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
+.work_title{
+    margin-top: 50px;
+}
+
+.work_title > h1{
+    font-family: 'Inter';
+    font-weight: 900;
+}
 
 .title_ender {
     position: relative;
@@ -25,24 +32,30 @@
 
 .work_card
 {
+    font-family: 'Inter';
     max-width: 600px;
+    background: #202020;
+    padding: 20px;
     margin-bottom: 50px;
+    border-radius: 8px;
 }
 
 .work_card > h1{
     font-weight: 500;
     font-size: 2rem;
+    letter-spacing: -.0025;
 }
 
 .work_card > p{
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.2rem;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
 
 }
 
 .image_holder{
     width: 100%;
+    border-radius: 8px;
 }
 
 .arrow

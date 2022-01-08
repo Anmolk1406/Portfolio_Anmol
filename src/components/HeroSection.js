@@ -8,7 +8,7 @@ import Doodle from './Doodle';
 function HeroSection() {
     return (
         <div className="hero-container">
-            <h1>Hi! I'm Unmole</h1> 
+            <h1>Hi! I'm Lomna</h1> 
             <div className="hero_subtitle">
                 <p>I like to set things in motion!</p>
                 <Doodle className="motion_bars"/>
