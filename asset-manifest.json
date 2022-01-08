@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/Portfolio_Anmol/static/css/main.2133469d.chunk.css",
-    "main.js": "/Portfolio_Anmol/static/js/main.77402f83.chunk.js",
-    "main.js.map": "/Portfolio_Anmol/static/js/main.77402f83.chunk.js.map",
-    "runtime-main.js": "/Portfolio_Anmol/static/js/runtime-main.574a5546.js",
-    "runtime-main.js.map": "/Portfolio_Anmol/static/js/runtime-main.574a5546.js.map",
+    "main.css": "/Portfolio_Anmol/static/css/main.eea3cebe.chunk.css",
+    "main.js": "/Portfolio_Anmol/static/js/main.26554288.chunk.js",
+    "main.js.map": "/Portfolio_Anmol/static/js/main.26554288.chunk.js.map",
+    "runtime-main.js": "/Portfolio_Anmol/static/js/runtime-main.01fe10d0.js",
+    "runtime-main.js.map": "/Portfolio_Anmol/static/js/runtime-main.01fe10d0.js.map",
     "static/css/2.6c0f60ba.chunk.css": "/Portfolio_Anmol/static/css/2.6c0f60ba.chunk.css",
-    "static/js/2.2d69c9f7.chunk.js": "/Portfolio_Anmol/static/js/2.2d69c9f7.chunk.js",
-    "static/js/2.2d69c9f7.chunk.js.map": "/Portfolio_Anmol/static/js/2.2d69c9f7.chunk.js.map",
+    "static/js/2.388ffbeb.chunk.js": "/Portfolio_Anmol/static/js/2.388ffbeb.chunk.js",
+    "static/js/2.388ffbeb.chunk.js.map": "/Portfolio_Anmol/static/js/2.388ffbeb.chunk.js.map",
     "index.html": "/Portfolio_Anmol/index.html",
     "static/css/2.6c0f60ba.chunk.css.map": "/Portfolio_Anmol/static/css/2.6c0f60ba.chunk.css.map",
-    "static/css/main.2133469d.chunk.css.map": "/Portfolio_Anmol/static/css/main.2133469d.chunk.css.map",
-    "static/js/2.2d69c9f7.chunk.js.LICENSE.txt": "/Portfolio_Anmol/static/js/2.2d69c9f7.chunk.js.LICENSE.txt",
+    "static/css/main.eea3cebe.chunk.css.map": "/Portfolio_Anmol/static/css/main.eea3cebe.chunk.css.map",
+    "static/js/2.388ffbeb.chunk.js.LICENSE.txt": "/Portfolio_Anmol/static/js/2.388ffbeb.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Portfolio_Anmol/static/media/circular-book.90481370.otf",
     "static/media/pfp.db234a30.png": "/Portfolio_Anmol/static/media/pfp.db234a30.png",
     "static/media/timeline_dark.f3b31500.png": "/Portfolio_Anmol/static/media/timeline_dark.f3b31500.png",
-    "static/media/work_card_four.0ab0ebe5.png": "/Portfolio_Anmol/static/media/work_card_four.0ab0ebe5.png",
-    "static/media/work_card_one.47148338.png": "/Portfolio_Anmol/static/media/work_card_one.47148338.png",
-    "static/media/work_card_three.70794cfc.png": "/Portfolio_Anmol/static/media/work_card_three.70794cfc.png",
-    "static/media/work_card_two.47061946.png": "/Portfolio_Anmol/static/media/work_card_two.47061946.png"
+    "static/media/work_card_four.e6292ce9.png": "/Portfolio_Anmol/static/media/work_card_four.e6292ce9.png",
+    "static/media/work_card_one.60cb94f4.png": "/Portfolio_Anmol/static/media/work_card_one.60cb94f4.png",
+    "static/media/work_card_six.18daddaa.png": "/Portfolio_Anmol/static/media/work_card_six.18daddaa.png",
+    "static/media/work_card_three.594ac8a3.png": "/Portfolio_Anmol/static/media/work_card_three.594ac8a3.png",
+    "static/media/work_card_two.63bf5c81.png": "/Portfolio_Anmol/static/media/work_card_two.63bf5c81.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.574a5546.js",
+    "static/js/runtime-main.01fe10d0.js",
     "static/css/2.6c0f60ba.chunk.css",
-    "static/js/2.2d69c9f7.chunk.js",
-    "static/css/main.2133469d.chunk.css",
-    "static/js/main.77402f83.chunk.js"
+    "static/js/2.388ffbeb.chunk.js",
+    "static/css/main.eea3cebe.chunk.css",
+    "static/js/main.26554288.chunk.js"
   ]
 }
