@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio_Anmol/static/css/main.eea3cebe.chunk.css",
-    "main.js": "/Portfolio_Anmol/static/js/main.26554288.chunk.js",
-    "main.js.map": "/Portfolio_Anmol/static/js/main.26554288.chunk.js.map",
+    "main.js": "/Portfolio_Anmol/static/js/main.70414ffe.chunk.js",
+    "main.js.map": "/Portfolio_Anmol/static/js/main.70414ffe.chunk.js.map",
     "runtime-main.js": "/Portfolio_Anmol/static/js/runtime-main.01fe10d0.js",
     "runtime-main.js.map": "/Portfolio_Anmol/static/js/runtime-main.01fe10d0.js.map",
     "static/css/2.6c0f60ba.chunk.css": "/Portfolio_Anmol/static/css/2.6c0f60ba.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.6c0f60ba.chunk.css",
     "static/js/2.388ffbeb.chunk.js",
     "static/css/main.eea3cebe.chunk.css",
-    "static/js/main.26554288.chunk.js"
+    "static/js/main.70414ffe.chunk.js"
   ]
 }
