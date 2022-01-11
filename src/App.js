@@ -47,7 +47,8 @@ const divStyle = {
         <div class="radialProgressBar"
         style={divStyle}>
                 <div class="overlay">
-                      <ScrollToTop smooth className="scroll" component={<ScrollUpAnimation/>}/>
+                      <ScrollToTop smooth className="scroll" 
+                      component={<ScrollUpAnimation/>}/>
                 </div>
           </div>
 
@@ -56,7 +57,7 @@ const divStyle = {
         <Navbar />
         <Blank/>
         <Switch>
-          <Route path='/'>
+          <Route exact path='/'>
             <Home />
           </Route>
           <Route path='/about'>

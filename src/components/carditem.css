@@ -38,7 +38,11 @@
     padding: 20px;
     margin-bottom: 50px;
     border-radius: 8px;
-    box-shadow: 0 0 20px 2px rgb(8, 8, 8);
+    transition: 0.2s ease-in-out;
+}
+
+.work_card:hover{
+    box-shadow: 0 0 20px 2px rgb(0, 0, 0);
 }
 
 .work_card > h1{

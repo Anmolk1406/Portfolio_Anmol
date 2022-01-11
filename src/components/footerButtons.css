@@ -11,21 +11,34 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #131313;
     border: none;
     letter-spacing: 0.045rem;
     cursor: pointer;
     width: 240px;
     margin-bottom: 30px;
+    background:#fff;
+    color: #131313;
+    border: 1px solid #131313;
+}
+
+.footer_button:hover{
+    background: #131313;
     color: #fff;
 }
 
+
+
 .icon
 {
-    filter: invert(1);
+    filter: invert(0);
     max-width: 90%;
     margin-right: 20px;
 }
+
+.footer_button:hover > .icon
+{
+    filter: invert(1);
+} 
 
 a{
     text-decoration: none;
