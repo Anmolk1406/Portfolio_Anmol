@@ -18,7 +18,7 @@ function HeroSection() {
         React.useEffect(() => {
           const intervalId = setInterval(() =>
             setIndex(index => index + 1),
-            3000 // every 3 seconds
+            2500 // every 3 seconds
           );
           return () => clearTimeout(intervalId);
         }, []);
