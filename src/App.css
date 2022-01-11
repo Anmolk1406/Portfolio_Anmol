@@ -1,12 +1,8 @@
-@font-face {
-    font-family: "circular";
-    src: url(./Assets/Circular/circular-book.otf) format('opentype');
-}
 
 
 body{
-    font-family: "circular";
     background: #131313;
+    background-image: url(Assets/Noise.png);
     color: white;
 }
 

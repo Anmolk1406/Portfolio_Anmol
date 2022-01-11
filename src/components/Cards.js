@@ -18,14 +18,6 @@ function Cards() {
             button_name: 'Play video',
             url: 'https://drive.google.com/file/d/1nTqrpS_4tN6Kwvgr-9PXkTnifBtvne_V/view?usp=sharing'
         },
-        { 
-            imgUrl: workCardTwo,
-            subtitle: 'Motion design intern | eka•care',
-            name: 'My work with eka care',
-            description: 'Read the documentaion of my internship with eka care.',
-            button_name: 'Open notion',
-            url: 'https://www.notion.so/Eka-Care-Assests-266be9e50fe2458fae575141212fff2b'
-        },
         {
             imgUrl: workCardFive,
             subtitle: 'Branding',
@@ -40,7 +32,15 @@ function Cards() {
             name: 'My work with curelink',
             description: 'Read the documentaion of my internship with curelink.',
             button_name: 'Read documentation',
-            url: 'https://www.behance.net/gallery/125324027/2021-Mid-year-work-showcase'
+            url: 'https://www.notion.so/My-experience-with-curelink-bca5d19d13d34ef5a7c5a8918f12b2ea'
+        },
+        { 
+            imgUrl: workCardTwo,
+            subtitle: 'Motion design intern | eka•care',
+            name: 'My work with eka care',
+            description: 'Read the documentaion of my internship with eka care.',
+            button_name: 'Open notion',
+            url: 'https://www.notion.so/Eka-Care-Assests-266be9e50fe2458fae575141212fff2b'
         },
         {
             imgUrl: workCardOne,
