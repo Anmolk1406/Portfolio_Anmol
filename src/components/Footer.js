@@ -5,10 +5,17 @@ import instaIcon from '../Assets/insta.png';
 import linkedIn from '../Assets/linkedin.png';
 import Behance from '../Assets/behance.png';
 import twitter from '../Assets/twitter.png';
+import mail from '../Assets/mail.png'
 
 function Footer() {
 
-    const buttons = [{
+    const buttons = [
+    {
+            icon: mail,
+            name: 'E-mail',
+            url: 'mailto:anmol_k@cy.iitr.ac.in'
+    },
+    {
         icon: instaIcon,
         name: 'Instagram',
         url: 'https://www.instagram.com/almost.anmol/'
