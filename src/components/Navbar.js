@@ -46,9 +46,9 @@ function Navbar() {
                         <button onClick={()=>setActive('work')} className={`link-buttons ${active === 'work' ? 'activated' : 'active'}`}>Work</button>
                     </Link>
                 </ScrollLink>
-                <Link to='/about'>
+                {/* <Link to='/about'>
                     <button onClick={()=>setActive('about')} className={`link-buttons ${active === 'about' ? 'activated' : 'active'}`}>About</button>
-                </Link>
+                </Link> */}
                 
             </div>
 
