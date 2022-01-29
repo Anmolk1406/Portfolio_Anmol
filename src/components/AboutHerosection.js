@@ -3,7 +3,7 @@ import './aboutme.css';
 import titleDark from '../Assets/title_darkMode.png';
 import profileImage from '../Assets/pfp.png';
 
-function AboutHerosection() {
+function AboutHerosection() { 
     return (
         <div className="about-section">
             <div className="about-text">

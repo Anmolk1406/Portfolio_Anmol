@@ -3,6 +3,7 @@ import arrowRight from '../Assets/arrow.png';
 import { Button } from './Button';
 import './carditem.css';
 import titleDarkMode from '../Assets/title_darkMode.png';
+import extLink from '../Assets/basic/external_link.png';
 
 function CardItem({projects}) {
     return (

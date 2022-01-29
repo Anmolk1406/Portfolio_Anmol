@@ -1,9 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: lab-bold;
+    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Bold.ttf);
+}
+
+@font-face {
+    font-family: lab-light;
+    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Light.ttf);
+}
+
 
 body{
     user-select: none;
 }
-
 
 .hero-container{
     height: 60vh; width: 100%;
@@ -11,18 +19,18 @@ body{
     align-items: center;
     object-fit: none;
     justify-content: center;
+    color: white;
 }
 
 .hero-container > h1 {
-    font-family: 'Inter', sans-serif;
-    color: white;
+    font-family: 'lab-bold', sans-serif;
     font-weight: 600;
     letter-spacing: -0.25rem;
     font-size: 100px;
-}
+} 
 
 .hero_subtitle > p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'lab-light', sans-serif;
     color: white;
     font-size: 28px;
     font-weight: 200;

@@ -24,14 +24,14 @@ function Cards() {
             name: 'eSports IITR Branding',
             description: 'Branding of the IIT Roorkee group ESPORTS IITR',
             button_name: 'Open',
-            url: ''
+            url: 'https://www.behance.net/gallery/136159315/Esports-Branding-2022'
         },
         {
             imgUrl: workCardSix,
             subtitle: 'Motion design intern | Curelink',
             name: 'My work with curelink',
             description: 'Read the documentaion of my internship with curelink.',
-            button_name: 'Read documentation',
+            button_name: 'Open notion',
             url: 'https://www.notion.so/My-experience-with-curelink-bca5d19d13d34ef5a7c5a8918f12b2ea'
         },
         { 

@@ -5,7 +5,7 @@ import './herosection.css';
 import arrowRight from '../Assets/arrow.png'
 import Doodle from './Doodle';
 import TextTransition, { presets } from 'react-text-transition';
-
+import { useState } from 'react';
 
 
 function HeroSection() {
@@ -23,16 +23,15 @@ function HeroSection() {
           return () => clearTimeout(intervalId);
         }, []);
 
-
     return (
-        <div className="hero-container">
+        <div className='hero-container' >
             <h1> Hi!, I'm&nbsp;
             <TextTransition
             inline = {true}
         text={ TEXTS[index % TEXTS.length] }
         springConfig={ presets.stiff }
       /></h1>
-            <div className="hero_subtitle">
+            <div className='hero_subtitle'>
                 <p>I like to set things in motion!</p>
                 <Doodle className="motion_bars"/>
             </div>

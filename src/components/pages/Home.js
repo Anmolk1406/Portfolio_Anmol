@@ -6,9 +6,10 @@ import Footer from '../Footer';
 import Realm from '../Realm';
 
 function Home() {
+
     return(
         <div id='home-container'>
-            <HeroSection />
+            <HeroSection  />
             <Realm />
             <Cards />
             <Experience />

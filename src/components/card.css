@@ -1,4 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: lab-blold;
+    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Bold.ttf);
+}
+
+@font-face {
+    font-family: lab-light;
+    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Light.ttf);
+}
+
+@font-face {
+    font-family: lab-regular;
+    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Regular.ttf);
+}
+
 
 .cards
 {
@@ -10,7 +24,7 @@ li{
 }
 
 .card_container{
-    font-family: 'Inter ';
+    font-family: 'lab-regular';
     width: fit-content;
     margin: 0 auto;
 }

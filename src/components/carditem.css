@@ -1,4 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: lab-bold;
+    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Bold.ttf);
+}
+
+@font-face {
+    font-family: lab-light;
+    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Light.ttf);
+}
+
+@font-face {
+    font-family: lab-regular;
+    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Regular.ttf);
+}
+
+@font-face {
+    font-family: lab-medium;
+    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Medium.ttf);
+}
 
 .card_items_container{
     display: flex;
@@ -11,7 +29,7 @@
 }
 
 .work_title > h1{
-    font-family: 'Inter';
+    font-family: 'lab-bold';
     font-weight: 900;
 }
 
@@ -32,7 +50,6 @@
 
 .work_card
 {
-    font-family: 'Inter';
     max-width: 600px;
     background: #202020;
     padding: 20px;
@@ -46,15 +63,18 @@
 }
 
 .work_card > h1{
+    font-family: 'lab-medium';
     font-weight: 500;
     font-size: 2rem;
-    letter-spacing: -.0025;
+    letter-spacing: 0.02rem;
 }
 
 .work_card > p{
+    font-family: 'lab-regular';
     font-weight: 300;
     font-size: 1.2rem;
-    letter-spacing: 0.01em;
+    letter-spacing: -0.020em;
+    color: #ccc;
 
 }
 
