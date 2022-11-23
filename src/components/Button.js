@@ -11,7 +11,8 @@ export const Button =({
         type,
         url,
         buttonStyle,
-        buttonSize
+        buttonSize,
+        className
     }) => {
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
 
@@ -20,7 +21,7 @@ export const Button =({
     return(
         <a href={url} target="_blank" className='btn-mobile'>
             <button
-             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+             className={`btn ${checkButtonStyle} ${checkButtonSize} ${className}`}
              type={type}> 
             {children}</button>
         </a>

@@ -1,20 +1,16 @@
 import React from 'react';
 import './footer.css';
 import FooterButtons from './FooterButtons';
-import instaIcon from '../Assets/insta.png';
-import linkedIn from '../Assets/linkedin.png';
-import Behance from '../Assets/behance.png';
-import twitter from '../Assets/twitter.png';
+import instaIcon from '../Assets/instaLink.png';
+import linkedIn from '../Assets/linkedLink.png';
+import Behance from '../Assets/behanceLink.png';
+import twitter from '../Assets/twiiterLink.png';
 import mail from '../Assets/mail.png'
+import { Button } from './Button';
 
 function Footer() {
 
     const buttons = [
-    {
-            icon: mail,
-            name: 'E-mail',
-            url: 'mailto:anmol_k@cy.iitr.ac.in'
-    },
     {
         icon: instaIcon,
         name: 'Instagram',
@@ -40,27 +36,22 @@ function Footer() {
         <>
         <div className="footer">
             <div className="footer_text">
-            <h1>So this is the end?</h1>
-            <p>Is it really! Don’t you want to 
-                connect after seeing this awesome portfolio!</p>
+            <h1>Let's Talk</h1>
+            <p>Wanna make cool stuff together?
+            <br/>Or crack lame jokes?</p>
+
+            <Button url={"mailto:anmol_k@cy.iitr.ac.in"}>Drop a message</Button>
                 </div>
 
-        <div className="footer_buttons">
-                <FooterButtons button = {buttons}/>
+        <div className="socialSection">
+                <h1>Are you a good stalker?</h1>
+                <p>Let’s find out!</p>
+            <div className="footer_buttons">
+                    <FooterButtons button = {buttons}/>
+            </div>
+            </div>
         </div>
-        </div>
 
-
-
-        <div className="footer_ending">
-                <p>
-                    Website Designed and Developed by Me!
-                </p>
-                <p> 
-                    Special thanks to Ayaneshu and Supratim for helping me in design
-                    and development of this website ❤️
-                </p>
-         </div>
          </>
     )
 }

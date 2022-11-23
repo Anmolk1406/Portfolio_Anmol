@@ -1,21 +1,30 @@
-@font-face {
-    font-family: lab-bold;
-    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Bold.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.sliceColor{
+    background: #7265E3 !important;
 }
 
-@font-face {
-    font-family: lab-light;
-    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Light.ttf);
+.esportsColor{
+    background: radial-gradient(circle, rgba(149,115,245,1) 0%, rgba(70,26,192,1) 100%);}
+
+.showreelColor{
+    background: #0E0E0E !important;
 }
 
-@font-face {
-    font-family: lab-regular;
-    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Regular.ttf);
+.blogColor{
+    background: #F5F5F5 !important;
 }
 
-@font-face {
-    font-family: lab-medium;
-    src: url(../Assets/Lab\ Grotesque/LabGrotesque-Medium.ttf);
+.curelinkColor{
+    background: #0A92DC !important;
+}
+
+.behanceColor{
+    background: radial-gradient(108.7% 106.94% at -3.67% 49.33%, #373737 0%, #131313 100%) !important;
+}
+
+.ekaCareColor{
+    background: #7265E3 !important;
 }
 
 .card_items_container{
@@ -25,24 +34,31 @@
 }
 
 .work_title{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .work_title > h1{
-    font-family: 'lab-bold';
-    font-weight: 900;
+    font-family: 'Outfit';
+    font-weight: 300;
 }
 
 .title_ender {
     position: relative;
-    top: -20px;
-    left: 4px;
+    top: 30px;
+    left: 0px;
+}
+
+.image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
 }
 
 .global_cards
 {
     display : grid;
-    grid-template-columns: 560px 560px;
+    grid-template-columns: 750px 750px;
     grid-column-gap: 20px;
     width: fit-content;
     margin: 0 auto !important;
@@ -50,27 +66,29 @@
 
 .work_card
 {
-    max-width: 600px;
-    background: #202020;
-    padding: 20px;
+    position: relative;
+    max-width: 750px;
+    height: 500px;
     margin-bottom: 50px;
-    border-radius: 8px;
     transition: 0.2s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .work_card:hover{
-    box-shadow: 0 0 20px 2px rgb(0, 0, 0);
+    box-shadow: 0 0 20px 2px  rgba(54, 54, 54, 0.2);
 }
 
 .work_card > h1{
-    font-family: 'lab-medium';
+    font-family: 'Outfit';
     font-weight: 500;
     font-size: 2rem;
     letter-spacing: 0.02rem;
+    background: radial-gradient(149.69% 129.29% at -49.69% 51.73%, #9573F5 0%, #461AC0 100%);
 }
 
 .work_card > p{
-    font-family: 'lab-regular';
+    font-family: 'Outfit';
     font-weight: 300;
     font-size: 1.2rem;
     letter-spacing: -0.020em;
@@ -78,9 +96,14 @@
 
 }
 
+.textContainer{
+    position: absolute;
+    top: 0;
+    padding: 10px 0 0 20px;
+}
+
 .image_holder{
     width: 100%;
-    border-radius: 8px;
 }
 
 .arrow

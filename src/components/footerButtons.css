@@ -1,47 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+.buttonContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 
+    /* Background/Base */
+
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+
+.viewIcon
+{
+    position: absolute;
+    opacity: 0;
+    top: 40%; left: 45%;
+    transition: .2s ease-in-out;
+}
+
+.linkContainer:hover .viewIcon
+{
+    opacity: 100%;
+    top: 45%; left: 45%;
+}
+
+.linkContainer:hover
+{
+    opacity: 75%;
+}
+
+.socialSection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+p{
+    font-size: 20px;
+}
 
 .footer_button{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
-    padding: 10px 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 12px 10px;
     border: none;
-    letter-spacing: 0.045rem;
+    background: none;
     cursor: pointer;
-    width: 240px;
-    margin-bottom: 30px;
-    background:#fff;
-    color: #131313;
-    border: 1px solid #131313;
+
+    width: 48px;
+    height: 48px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
-
-.footer_button:hover{
-    background: #131313;
-    color: #fff;
-}
-
-
 
 .icon
 {
-    filter: invert(0);
-    max-width: 90%;
-    margin-right: 20px;
+    opacity: 75%;
+    filter: grayscale();
 }
 
-.footer_button:hover > .icon
+.footer_button:hover .icon
 {
-    filter: invert(1);
-} 
+    filter: none;
+    opacity: 100%;
+}
 
-a{
+.btnDivider
+{
+
+    width: 2px;
+    height: 24px;
+
+    /* Dark/Highlight-1 */
+
+    background: #4A4A4A;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footerIcons{
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 40px;
+    gap: 25px;
+    width: 48px;
 }
 
 @media screen and (max-width: 400px) {

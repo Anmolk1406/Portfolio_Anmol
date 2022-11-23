@@ -3,29 +3,19 @@ import './experience.css';
 import titleDarkMode from '../Assets/title_darkMode.png';
 import Company from './Company';
 import famPay from '../Assets/fampay.png';
-import timeLine from '../Assets/timeline_dark.png';
+import timeLine from '../Assets/timeline.png';
 import ekaCare from '../Assets/ekacare.png';
+import timelineIcon from '../Assets/timelineIcon.png';
 
 function Experience() {
-    const companies = [{
-        imgUrl: famPay,
-        company_name: 'Fampay',
-        designation: 'Creative team',
-        duration: '6 months'
-    },
-    {
-        imgUrl: ekaCare, 
-        company_name: 'Eka.Care',
-        designation: 'Motion Designer',
-        duration: '3 months'
-    }
-]
 
     return (
         <div className="experience_container">
-            <h1 className="work_title">Experience<img className="title_ender" src={titleDarkMode}>
-            </img></h1>
-            
+            <div>
+            <h1 className="work_title"><img src={timelineIcon}>
+            </img> My Internship Timeline</h1>
+            </div>
+            <div className='Timline-heading-bar'></div>
             <img className="timeline_img" src={timeLine}/>
 
         </div>

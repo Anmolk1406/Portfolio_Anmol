@@ -2,19 +2,26 @@
 
 .footer{
     font-family: 'Outfit', sans-serif;
-    background: #fff;   
-    padding: 150px;
+    background: #131313;   
+    padding: 100px;
     margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+.linkContainer
+{
+    text-decoration: none;
+    color: white;
+}
+
 .footer_text
 {
-    color: #131313;
+    color: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .footer_text > h1{
@@ -27,21 +34,13 @@
     font-size: 1.2rem;
 }
 
-.footer_ending{
-    padding: 20px;
-    background: #131313
-}
-
-.footer_ending p{
+p{
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
     /* padding: 15px; */
     color: #fff;
     font-family: "Epilogue";
     font-weight: 400;
     font-size: 18px;
-    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {

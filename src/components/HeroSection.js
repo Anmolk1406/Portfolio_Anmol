@@ -6,6 +6,8 @@ import arrowRight from '../Assets/arrow.png'
 import Doodle from './Doodle';
 import TextTransition, { presets } from 'react-text-transition';
 import { useState } from 'react';
+import Keyframe from '../Assets/keyframe.png';
+import { SmoothCorners } from 'react-smooth-corners';
 
 
 function HeroSection() {
@@ -25,20 +27,18 @@ function HeroSection() {
 
     return (
         <div className='hero-container' >
-            <h1> Hi!, I'm&nbsp;
+            <h1> Hi! I'm&nbsp;
             <TextTransition
             inline = {true}
         text={ TEXTS[index % TEXTS.length] }
         springConfig={ presets.stiff }
       /></h1>
             <div className='hero_subtitle'>
-                <p>I like to set things in motion!</p>
-                <Doodle className="motion_bars"/>
+                <p>I'm a pixel pusher</p>
+                <img src={Keyframe}></img>
             </div>
             <div className="hero-btns">
-                <Button className='btn' url="mailto:anmol_k@cy.iitr.ac.in" buttonStyle='btn--primary'>
-                    Drop a message!<img className='arrow_right' src={arrowRight}/> 
-                </Button>
+            <Button url={"mailto:anmol_k@cy.iitr.ac.in"} >Send a Message</Button>
                 
             </div>
         </div>

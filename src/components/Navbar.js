@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import './navbar.css'
 import { Link, useHistory, useRouteMatch } from 'react-router-dom';
-import Anmol from './Anmol';
+import Anmol from '../Assets/Anmol_logo.png';
 import {Link as ScrollLink, animateScroll as scroll, scroller} from 'react-scroll'
+import { Button } from './Button';
+import { SmoothCorners } from 'react-smooth-corners'
 
 // scroller.scrollTo('myScrollToElement', {
 //     duration: 1500,
@@ -32,8 +34,7 @@ function Navbar() {
 
     return (
         <div className="navbar-container">
-            <Link style={{marginLeft: '20%'}}> <Anmol/></Link>
-            {/* <Link><img src={logo}/></Link>  */}
+            <img src={Anmol} style={{marginLeft: '10%'}}></img>
 
             <div className="navi-cons">  
                 <ScrollLink className="c-main__contact" to="home-container" smooth={true} duration={800}>
@@ -46,22 +47,17 @@ function Navbar() {
                         <button onClick={()=>setActive('work')} className={`link-buttons ${active === 'work' ? 'activated' : 'active'}`}>Work</button>
                     </Link>
                 </ScrollLink>
-                {/* <Link to='/about'>
+                <Link to='/about'>
                     <button onClick={()=>setActive('about')} className={`link-buttons ${active === 'about' ? 'activated' : 'active'}`}>About</button>
-                </Link> */}
+                </Link>
                 
             </div>
 
-            <div className="hamburger_container">
-            <div class="three col">
-        <div class="hamburger" id="hamburger-12">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
+            <Button className='send-msg' url={"mailto:anmol_k@cy.iitr.ac.in"}>Drop a message</Button>
+        
+
         </div>
-      </div>
-            </div>
-        </div>
+        
     )
 }
 

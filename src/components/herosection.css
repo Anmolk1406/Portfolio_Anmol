@@ -63,6 +63,40 @@ body{
     transition: 150ms ease-in-out;
 }
 
+.drop-msg{
+    font-family: 'Outfit', sans-serif;
+    background: none;
+    color: white;
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 22px;
+    padding: 10px 30px;
+    gap: 10px;
+
+
+    /* Primary/Base */
+
+    border: 2px solid #21A362;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+}
+
+.drop-msg:hover{
+    color: white;
+    background: #21A362;
+}
+
 .btn{
     transition: all 150ms ease-in-out;
 }

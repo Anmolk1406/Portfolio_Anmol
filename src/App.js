@@ -44,9 +44,9 @@ const divStyle = {
         
         <div className="scrl-btn-container">
         
-        <div class="radialProgressBar"
+        <div className="radialProgressBar"
         style={divStyle}>
-                <div class="overlay">
+                <div className="overlay">
                       <ScrollToTop smooth className="scroll" 
                       component={<ScrollUpAnimation/>}/>
                 </div>

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .navbar-container
 {
@@ -10,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    background: #000;
+    background: #131313;
     background: rgba(19,19,19,0.9) !important;                                                                                       
     z-index: 2;
     backdrop-filter: blur(40px) saturate(125%);                                                                 
@@ -18,14 +17,31 @@
     border-bottom: 2px solid #131313;       
 }
 
+.send-msg{
+    font-family: 'Outfit', sans-serif;
+    background: none;
+    color: #21A362;
+    cursor: pointer;
+    border: 2px solid #21A362;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.024rem;
+    margin-right: 15% !important;
+    width: 160px;
+}
+
+.send-msg:hover{
+  background: #21A362;
+  color: #fff;
+}
 
 .link-buttons
 {   
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 20px;
-    letter-spacing: -.0025;
+    letter-spacing: 0.025em;
     width: 100px;
     height: 48px;
     /* Inside Auto Layout */
@@ -37,11 +53,11 @@
     border: 0;
     outline: none;
     cursor: pointer;
-    text-transform: uppercase;
     border-radius: 8px;
 }
 
 .navi-cons{
+
     display: inline;
 }
 
@@ -92,48 +108,25 @@
 .link-buttons:hover
 {
     background: #202020;
-    color: #3C95FF;
+    color: #21A362;
 }
 
 .activated
 {
-    color: #3C95FF;
-    text-transform: uppercase;
+    color: #21A362;
     text-decoration: none;
-    letter-spacing: 0.15em;
     display: inline-block;
     position: relative;
 }
 
-.activated:after
-{
-    display:block;
-    content: '';
-    border-bottom: solid 2px #3C95FF;  
-    transform: scaleX(0.7); 
-    transition: transform 250ms ease-in-out;
-}
 
 .active {
-    text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: 0.15em;
     display: inline-block;
     position: relative;
   }
 
   
- .active:after {
-    display:block;
-  content: '';
-  border-bottom: solid 2px #3C95FF;  
-  transform: scaleX(0);  
-  transition: transform 250ms ease-in-out;
-  }
-
-  .active:hover:after { 
-    transform: scaleX(0.8);  
-  }
 
 @-webkit-keyframes indicator {
   30% {
