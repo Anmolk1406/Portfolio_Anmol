@@ -1,34 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio_Anmol/static/css/main.335579f0.chunk.css",
-    "main.js": "/Portfolio_Anmol/static/js/main.89031a29.chunk.js",
-    "main.js.map": "/Portfolio_Anmol/static/js/main.89031a29.chunk.js.map",
-    "runtime-main.js": "/Portfolio_Anmol/static/js/runtime-main.574a5546.js",
-    "runtime-main.js.map": "/Portfolio_Anmol/static/js/runtime-main.574a5546.js.map",
-    "static/css/2.6c0f60ba.chunk.css": "/Portfolio_Anmol/static/css/2.6c0f60ba.chunk.css",
-    "static/js/2.d7e10e50.chunk.js": "/Portfolio_Anmol/static/js/2.d7e10e50.chunk.js",
-    "static/js/2.d7e10e50.chunk.js.map": "/Portfolio_Anmol/static/js/2.d7e10e50.chunk.js.map",
-    "index.html": "/Portfolio_Anmol/index.html",
-    "static/css/2.6c0f60ba.chunk.css.map": "/Portfolio_Anmol/static/css/2.6c0f60ba.chunk.css.map",
-    "static/css/main.335579f0.chunk.css.map": "/Portfolio_Anmol/static/css/main.335579f0.chunk.css.map",
-    "static/js/2.d7e10e50.chunk.js.LICENSE.txt": "/Portfolio_Anmol/static/js/2.d7e10e50.chunk.js.LICENSE.txt",
-    "static/media/herosection.css": "/Portfolio_Anmol/static/media/LabGrotesque-Light.b23cfaab.ttf",
-    "static/media/carditem.css": "/Portfolio_Anmol/static/media/LabGrotesque-Medium.2c3d44a5.ttf",
-    "static/media/card.css": "/Portfolio_Anmol/static/media/LabGrotesque-Regular.0a6c4eec.ttf",
-    "static/media/App.css": "/Portfolio_Anmol/static/media/Noise.d65d79c4.png",
-    "static/media/pfp.db234a30.png": "/Portfolio_Anmol/static/media/pfp.db234a30.png",
-    "static/media/timeline_dark.ec8b9b10.png": "/Portfolio_Anmol/static/media/timeline_dark.ec8b9b10.png",
-    "static/media/work_card_four.e6292ce9.png": "/Portfolio_Anmol/static/media/work_card_four.e6292ce9.png",
-    "static/media/work_card_one.60cb94f4.png": "/Portfolio_Anmol/static/media/work_card_one.60cb94f4.png",
-    "static/media/work_card_six.18daddaa.png": "/Portfolio_Anmol/static/media/work_card_six.18daddaa.png",
-    "static/media/work_card_three.594ac8a3.png": "/Portfolio_Anmol/static/media/work_card_three.594ac8a3.png",
-    "static/media/work_card_two.63bf5c81.png": "/Portfolio_Anmol/static/media/work_card_two.63bf5c81.png"
+    "main.css": "/static/css/main.c6a7a175.css",
+    "main.js": "/static/js/main.aa2b215e.js",
+    "static/media/pfp.png": "/static/media/pfp.db234a30ed6099604ec9.png",
+    "static/media/LabGrotesque-Regular.ttf": "/static/media/LabGrotesque-Regular.0a6c4eecfb5e573e28f7.ttf",
+    "static/media/LabGrotesque-Light.ttf": "/static/media/LabGrotesque-Light.b23cfaabce1ec7b84e1e.ttf",
+    "static/media/LabGrotesque-Bold.ttf": "/static/media/LabGrotesque-Bold.f9c58397d598775d4201.ttf",
+    "static/media/esportsJersey.png": "/static/media/esportsJersey.2dc023dff59d7ca92e0a.png",
+    "static/media/timeline.png": "/static/media/timeline.f9fe8516704332b121a8.png",
+    "static/media/blog.png": "/static/media/blog.7abbafae68bc6c71807d.png",
+    "index.html": "/index.html",
+    "main.c6a7a175.css.map": "/static/css/main.c6a7a175.css.map",
+    "main.aa2b215e.js.map": "/static/js/main.aa2b215e.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.574a5546.js",
-    "static/css/2.6c0f60ba.chunk.css",
-    "static/js/2.d7e10e50.chunk.js",
-    "static/css/main.335579f0.chunk.css",
-    "static/js/main.89031a29.chunk.js"
+    "static/css/main.c6a7a175.css",
+    "static/js/main.aa2b215e.js"
   ]
 }
