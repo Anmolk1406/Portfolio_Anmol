@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_Anmol/static/css/main.86ec2395.css",
-    "main.js": "/Portfolio_Anmol/static/js/main.33c5134d.js",
+    "main.css": "/Portfolio_Anmol/static/css/main.bf77edc2.css",
+    "main.js": "/Portfolio_Anmol/static/js/main.618dd8da.js",
     "static/media/pfp.png": "/Portfolio_Anmol/static/media/pfp.db234a30ed6099604ec9.png",
     "static/media/LabGrotesque-Regular.ttf": "/Portfolio_Anmol/static/media/LabGrotesque-Regular.0a6c4eecfb5e573e28f7.ttf",
     "static/media/LabGrotesque-Light.ttf": "/Portfolio_Anmol/static/media/LabGrotesque-Light.b23cfaabce1ec7b84e1e.ttf",
@@ -10,11 +10,11 @@
     "static/media/timeline.png": "/Portfolio_Anmol/static/media/timeline.f9fe8516704332b121a8.png",
     "static/media/blog.png": "/Portfolio_Anmol/static/media/blog.7abbafae68bc6c71807d.png",
     "index.html": "/Portfolio_Anmol/index.html",
-    "main.86ec2395.css.map": "/Portfolio_Anmol/static/css/main.86ec2395.css.map",
-    "main.33c5134d.js.map": "/Portfolio_Anmol/static/js/main.33c5134d.js.map"
+    "main.bf77edc2.css.map": "/Portfolio_Anmol/static/css/main.bf77edc2.css.map",
+    "main.618dd8da.js.map": "/Portfolio_Anmol/static/js/main.618dd8da.js.map"
   },
   "entrypoints": [
-    "static/css/main.86ec2395.css",
-    "static/js/main.33c5134d.js"
+    "static/css/main.bf77edc2.css",
+    "static/js/main.618dd8da.js"
   ]
 }
