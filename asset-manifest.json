@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio_Anmol/static/css/main.04f64963.css",
-    "main.js": "/Portfolio_Anmol/static/js/main.d6bff915.js",
+    "main.js": "/Portfolio_Anmol/static/js/main.5fc1a8f7.js",
     "static/media/SR.mp4": "/Portfolio_Anmol/static/media/SR.bc0c40a003130175ee52.mp4",
     "static/media/pfp.png": "/Portfolio_Anmol/static/media/pfp.db234a30ed6099604ec9.png",
+    "static/media/timeline_new.png": "/Portfolio_Anmol/static/media/timeline_new.7d8adf60724d3bf9ff27.png",
     "static/media/LabGrotesque-Regular.ttf": "/Portfolio_Anmol/static/media/LabGrotesque-Regular.0a6c4eecfb5e573e28f7.ttf",
     "static/media/LabGrotesque-Light.ttf": "/Portfolio_Anmol/static/media/LabGrotesque-Light.b23cfaabce1ec7b84e1e.ttf",
     "static/media/LabGrotesque-Bold.ttf": "/Portfolio_Anmol/static/media/LabGrotesque-Bold.f9c58397d598775d4201.ttf",
     "static/media/esportsJersey.png": "/Portfolio_Anmol/static/media/esportsJersey.2dc023dff59d7ca92e0a.png",
-    "static/media/timeline.png": "/Portfolio_Anmol/static/media/timeline.f9fe8516704332b121a8.png",
     "static/media/blog.png": "/Portfolio_Anmol/static/media/blog.7abbafae68bc6c71807d.png",
     "index.html": "/Portfolio_Anmol/index.html",
     "main.04f64963.css.map": "/Portfolio_Anmol/static/css/main.04f64963.css.map",
-    "main.d6bff915.js.map": "/Portfolio_Anmol/static/js/main.d6bff915.js.map"
+    "main.5fc1a8f7.js.map": "/Portfolio_Anmol/static/js/main.5fc1a8f7.js.map"
   },
   "entrypoints": [
     "static/css/main.04f64963.css",
-    "static/js/main.d6bff915.js"
+    "static/js/main.5fc1a8f7.js"
   ]
 }
